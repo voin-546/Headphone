@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Source Sans Pro";
+}
+header {
+    width: 100%;
+    height: 80px;
+    background: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+}
+nav ul {
+    display: flex;
+}
+nav ul li a {
+    padding: 10px 25px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 15px;
+    margin: 0 20px;
+}
+.burger {
+    display: none;
+}
+main {
+    width: 100%;
+    height: 800px;
+    background: url("background.png") no-repeat center center / cover;
+}
+.container {
+    width: 1130px;
+    margin: auto;
+}
+.text-center {
+    margin: auto;
+    text-align: center;
+}
+.container > .text-center {
+    width: 50%;
+}
+main h2, main h6, main p,  main a  {
+    color: #fff;
+} 
+main h2 {
+    font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+margin-top: 150px;
+}
+main h6 {
+    font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+}
+main .text-center a {
+    padding: 13px 31px;
+    text-transform: uppercase;
+    background: #ff6565;
+    border-radius: 22px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    display: inline-block;
+    margin-top: 40px;
+}
+main p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-top: 65px;
+}
+section .text-center {
+    margin-top: 110px;
+}
+section .text-center h2 {
+    font-size: 32px;
+line-height: 38px;
+color: #071629;
+font-weight: 700;
+}
+section .text-center p {
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #071629;
+padding-top: 40px;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 97px;
+    flex-wrap: wrap;
+}
+.card {
+    text-align: center;
+    width: 207px;
+}
+.card:nth-child(1) {
+    margin-top: 30px;
+}
+.card:nth-child(4) {
+    margin-top: 7px;
+}
+.card img {
+    width: 70px;
+}
+.card h5 {
+    font-size: 18px;
+line-height: 26px;
+color: #071629;
+font-weight: 600;
+padding-top: 25px;
+}
+.card p {
+    padding-top: 0;
+    font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+color: #071629;
+}
+.result {
+    width: 100%;
+    height: 650px;
+    background: url("background\ 2.jpg") no-repeat center center / cover;
+    padding-top: 51px;
+    margin-top: 110px;
+}
+.result .text-center h2, .result .text-center p {
+    color: #fff;
+}
+.polygon {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 36px;
+}
+.polygon .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("Polygon\ Copy.png") no-repeat center center / cover;
+    height: 170px;
+    width: 180px;
+    flex-direction: column;
+}
+.polygon h1, .polygon p {
+    color: #fff;
+}
+.polygon h1 {
+    font-weight: 700;
+font-size: 46px;
+line-height: 26px;
+padding-top: 20px;
+}
+.polygon p {
+    font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+padding-top: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 335px;
+    margin: auto;
+}
+form input {
+    border: none;
+    border-bottom: 1px solid #c7ecee;
+    outline: none;
+    margin-top: 30px;
+}
+form input::placeholder {
+font-size: 14px;
+line-height: 16px;
+color: #071629;
+font-weight: 700;
+}
+form a {
+    padding: 13px 31px;
+    background: #ff6565;
+    border-radius: 22px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    width: 162px;
+    margin: 56px auto;
+}
+footer {
+    width: 100%;
+    height: 259px;
+    background: #071629;
+    padding-top: 90px;
+}
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer .social-links a {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #071629;
+    border-radius: 50%;
+    font-weight: 600;
+    border: 1px solid #071629;
+} 
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.social-links a {
+    transition: .5s;
+}
+.social-links a:hover {
+background: #071629;
+color: #fff;
+border: 1px solid #fff;
+transform: scale(1.1);
+}
+footer .container p {
+    font-weight: 400;
+font-size: 17px;
+line-height: 15px;
+color: #fff;
+mix-blend-mode: normal;
+opacity: 0.35;
+margin: 65px auto 0 auto;
+}
+@media (max-width: 1140px) {
+    header {
+        padding: 0 50px;
+    }
+}
+@media (max-width: 850px) {
+    header {
+        padding: 0 25px;
+    }
+}
+@media (max-width: 770px) {
+    header {
+        padding: 20px 10px;
+        align-items: start;
+        transition: .5s;
+    }
+    header.show {
+        height: 230px;
+        transition: .5s;
+    }
+    header.show nav {
+        height: 150px;
+        transition: .5s;
+    }
+    .burger {
+        width: 35px;
+        height: 45px;
+        position: relative;
+        transition: .5s ease-in-out;
+        cursor: pointer;
+        display: block;
+      }
+      .burger > .line {
+        position: absolute;
+        height: 5px;
+        width: 100%;
+        background: #fff;
+        border-radius: 9px;
+        left: 0;
+        transition: .25s ease-in-out;
+      }
+      .burger > .line:nth-child(1) {
+        top: 0px;
+      }
+      
+      .burger > .line:nth-child(2), .burger > .line:nth-child(3) {
+        top: 13px;
+      }
+      
+      .burger > .line:nth-child(4) {
+        top: 25px;
+      }
+      
+      header.show .burger .line:nth-child(1) {
+        top: 18px;
+        width: 0%;
+        left: 50%;
+      }
+      
+      header.show .burger .line:nth-child(2) {
+        transform: rotate(45deg);
+      }
+      
+      header.show .burger .line:nth-child(3) {
+        transform: rotate(-45deg);
+      }
+      
+      header.show .burger .line:nth-child(4) {
+        top: 18px;
+        width: 0%;
+        left: 50%;
+      }
+      
+    nav {
+        height: 0;
+        overflow: hidden;
+        position: absolute;
+        transition: .5s;
+        top: 80px;
+        left: 0;
+        right: 0;
+    }
+    nav ul {
+        flex-direction: column;
+        line-height: 45px;
+    }
+    nav ul li a {
+        padding: 0;
+    }
+}
+@media (max-width: 575px) {
+    .container {
+        width: 100%;
+    }
+    main {
+        height: 100%;
+        padding-bottom: 30px;
+    }
+    .container .text-center {
+        width: 90%;
+    }
+    .cards {
+        justify-content: start;
+    }
+    .card, .box {
+        margin: 20px auto;
+    }
+    .result {
+        height: 100%;
+        padding: 40px 10px;
+    }
+    footer {
+        padding: 90px 10px 0 10px;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+    main {
+        height: 100%;
+        padding-bottom: 30px;
+    }
+    .container {
+        width: 100%;
+    }
+    .cards, .polygon {
+        width: 80%;
+        margin: 40px auto;
+    }
+    .result {
+        height: 100%;
+        padding: 30px 0 20px 0;
+    }
+    .box, .card {
+        margin: 20px auto;
+    }
+    footer {
+        padding: 90px 10px 0 10px;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+    .container {
+        width: 100%;
+    }
+    .cards .card {
+        width: 24%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1139px) {
+    .container {
+        width: 100%;
+    } 
+    .result {
+        padding: 51px 10px 0 10px;
+    }
+    footer {
+        padding: 90px 10px 0 10px;
+    }
+}
+@media (max-width: 352px) {
+    .social-links, footer .logo {
+        margin: auto;
+    }
+    .social-links {
+        margin-top: 20px;
+    }
+    form {
+        width: 100%;
+    }
+    footer {
+        height: 100%;
+        padding: 20px 0 10px 0;
+    }
+}
+@media (min-width: 674px) and (max-width: 768px) {
+    .polygon {
+        width: 70%;
+        margin: auto;
+    }
+}
+@media (min-width: 560px) and (max-width: 576px) {
+    .polygon {
+        width: 90%;
+        margin: auto;
+    }
+}
